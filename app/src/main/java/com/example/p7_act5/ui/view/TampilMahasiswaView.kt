@@ -17,7 +17,7 @@ import com.example.p7_act5.model.Mahasiswa
 @Composable
 fun TampilMahasiswaView(
     mhs: Mahasiswa, //mengambil data dari model
-
+    onBackklick: () -> Unit
 
 ){
     Column(modifier = Modifier.fillMaxSize()) {
