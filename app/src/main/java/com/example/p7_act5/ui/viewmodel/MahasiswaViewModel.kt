@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 
-class MahasiswaViewModel:ViewModel() { //bentuk videw modelnya
+class MahasiswaViewModel:ViewModel() { //bentuk view modelnya
     private val _uiState = MutableStateFlow(Mahasiswa()) //private variable
     val uistate:StateFlow<Mahasiswa> = _uiState.asStateFlow()
 
