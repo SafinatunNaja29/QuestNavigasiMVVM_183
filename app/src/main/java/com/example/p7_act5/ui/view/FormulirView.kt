@@ -37,8 +37,10 @@ fun FormulirView(
     var email by remember { mutableStateOf("") }
     var noHp by remember { mutableStateOf("") }
     var alamat by remember { mutableStateOf("") }
+    var nim by remember { mutableStateOf("") }
     var jenisK by remember { mutableStateOf("") }
-    var listData : MutableList<String> = mutableListOf(nama, jenisK, alamat) //harus sesuai urutan
+    var listData : MutableList<String> = mutableListOf(nama, nim, jenisK, email, noHp, alamat) //harus sesuai urutan
+
 
     Column(modifier = modifier
         .fillMaxSize().padding(16.dp),
