@@ -1,6 +1,5 @@
 package com.example.p7_act5.ui.view
 
-import android.widget.Button
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row

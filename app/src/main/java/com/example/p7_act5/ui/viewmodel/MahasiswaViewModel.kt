@@ -1,6 +1,5 @@
 package com.example.p7_act5.ui.viewmodel
 
-import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import com.example.p7_act5.model.Mahasiswa
 import kotlinx.coroutines.flow.MutableStateFlow
