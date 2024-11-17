@@ -1,5 +1,6 @@
 package com.example.p7_act5.ui.view
 
+import android.widget.Button
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -7,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
+import androidx.compose.material3.Button
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -14,7 +16,9 @@ import com.example.p7_act5.model.Mahasiswa
 
 @Composable
 fun TampilMahasiswaView(
-    mhs: Mahasiswa //mengambil data dari model
+    mhs: Mahasiswa, //mengambil data dari model
+
+
 ){
     Column(modifier = Modifier.fillMaxSize()) {
         TampilData(
@@ -41,6 +45,13 @@ fun TampilMahasiswaView(
             judul = "Alamat",
             isi = mhs.alamat
         )
+
+        Button(
+            onClick = onBackklick,
+            modifier = Modifier.fillMaxWidth().padding(top = 16.dp)
+        ) {
+            Text("Kembali")
+        }
     }
 }
 
