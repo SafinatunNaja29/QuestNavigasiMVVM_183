@@ -19,8 +19,11 @@ class MahasiswaViewModel:ViewModel() { //bentuk view modelnya
         _uiState.update { data -> //data nya berisi 'Mahasiswa'
             data.copy(
                 nama = ls[0], //data yang dicopy akan urut sesuai nomer yang diberikan
-                gender = ls [1],
-                alamat = ls[2]
+                nim = ls[1],
+                gender = ls [2],
+                email = ls[3],
+                noHp = ls[4],
+                alamat = ls[5]
 
 
             )
