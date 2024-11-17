@@ -21,6 +21,8 @@ class MahasiswaViewModel:ViewModel() { //bentuk view modelnya
                 nama = ls[0], //data yang dicopy akan urut sesuai nomer yang diberikan
                 gender = ls [1],
                 alamat = ls[2]
+
+
             )
         }
     }
